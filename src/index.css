@@ -1,0 +1,19 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@theme {
+  --color-primary-50: oklch(0.95 0.015 270);
+  --color-primary-100: oklch(0.85 0.025 265);
+  --color-primary-200: oklch(0.75 0.035 260);
+  --color-primary-300: oklch(0.65 0.045 255);
+  --color-primary-400: oklch(0.55 0.055 250);
+  --color-primary-500: oklch(0.45 0.065 250);
+  --color-primary-600: oklch(0.35 0.07 250);
+  --color-primary-700: oklch(0.28 0.06 250);
+  --color-primary-800: oklch(0.22 0.05 250);
+  --color-primary-900: oklch(0.16 0.04 250);
+}
+@plugin "daisyui" {
+  themes: corporate --prefersdark;
+}
+@custom-variant dark (&:where(.dark, .dark *));
