@@ -4,12 +4,14 @@ import { Pencil, Save } from "lucide-react";
 export default function Profile() {
   const [editing, setEditing] = useState(false);
   const [profile, setProfile] = useState({
-    name: "John Doe",
-    email: "john.doe@example.com",
+    name: "Yash Anand",
+    email: "yashanand@example.com",
     role: "Client",
-    joined: "March 2024",
+    joined: "March 2025",
     bio: "Passionate about building great products!",
     profilePic: "https://img.daisyui.com/images/profile/demo/anakeen@192.webp",
+    profilePic2:
+      "https://imgs.search.brave.com/oXbTRDTtvPJg7K7-uZOI7wIZFX_QNBURIoFprfal8mQ/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9jZG4z/ZC5pY29uc2NvdXQu/Y29tLzNkL3ByZW1p/dW0vdGh1bWIvcHJv/ZmlsZS0zZC1pY29u/LWRvd25sb2FkLWlu/LXBuZy1ibGVuZC1m/YngtZ2x0Zi1maWxl/LWZvcm1hdHMtLXVz/ZXItYXZhdGFyLWFj/Y291bnQtY2hhcmFj/dGVyLXBlcnNvbi1l/c3NlbnRpYWwtb2Jq/ZWN0LXY0LXBhY2st/aW50ZXJmYWNlLWlj/b25zLTEwMzE2MzY3/LnBuZz9mPXdlYnA",
   });
 
   const [newPic, setNewPic] = useState(null);
@@ -43,7 +45,7 @@ export default function Profile() {
         <div className="flex flex-col items-center gap-2">
           <label htmlFor="profilePic" className="cursor-pointer">
             <img
-              src={newPic || profile.profilePic}
+              src={newPic || profile.profilePic2}
               alt="Profile"
               className="w-28 h-28 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2 object-cover"
             />

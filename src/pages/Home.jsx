@@ -193,7 +193,7 @@ const Home1 = () => {
             <div class="flex flex-col gap-4 text-center">
               <h2 class="text-xl">Startup</h2>
 
-              <h1 class="text-5xl font-bold">$39</h1>
+              <h1 class="text-5xl font-bold">₹390</h1>
 
               <span class="text-sm">
                 All the basics for starting a new business
@@ -225,7 +225,7 @@ const Home1 = () => {
             <div class="flex flex-col gap-4 text-center">
               <h2 class="text-xl">Team</h2>
 
-              <h1 class="text-5xl font-bold">$89</h1>
+              <h1 class="text-5xl font-bold">₹890</h1>
 
               <span class="text-sm">
                 Everything you need for a growing business
